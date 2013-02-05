@@ -59,7 +59,7 @@ GEM
       faye-websocket (>= 0.4.0)
       rack (>= 1.0.0)
       yajl-ruby (>= 1.0.0)
-    faye-rails (1.0.5)
+    faye-rails (1.0.6)
       eventmachine (~> 1.0.0)
       faye (~> 0.8.8)
     faye-websocket (0.4.6)
@@ -142,7 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  faye-rails (~> 1.0.5)
+  faye-rails (~> 1.0.6)
   haml-rails
   jquery-rails
   momentjs-rails

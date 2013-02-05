@@ -1,0 +1,4 @@
+Faye-rails example app.
+=======================
+
+This is a small demo app for faye-rails.

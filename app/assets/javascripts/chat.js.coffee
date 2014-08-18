@@ -12,10 +12,10 @@ $(document).ready ->
     button.attr('disabled', 'disabled')
     button.val('Posting...')
     publication = client.publish '/chat',
-      message: input.attr('value')
+      message: input.val()
       created_at: new Date()
     publication.callback ->
-      input.attr('value', '')
+      input.val('')
       button.removeAttr('disabled')
       button.val("Post")
     publication.errback ->

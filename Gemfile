@@ -17,7 +17,7 @@ group :assets do
   gem 'uglifier', '>= 1.3.0'
 end
 
-gem 'spring', group: development
+gem 'spring', group: :development
 
 
 # Use debugger

@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.5.8'
 
-gem 'rails', '4.1.4'
-gem 'faye-rails', '~> 2.0'
+gem 'rails', '4.2.8'
+gem 'faye-rails'
 gem 'thin'
 gem 'haml-rails'
 # gem 'turbolinks'
